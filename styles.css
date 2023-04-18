@@ -27,7 +27,7 @@ ul {
 }
 
 svg:hover path {
-    stroke: #02dada;
+    stroke: var(--blue);
 }
 
 body {
@@ -36,17 +36,16 @@ body {
 }
 
 header {
-    position: fixed;
-    height: 100px;
-    width: 100vw;
     box-sizing: border-box;
-    padding: 70px 100px 0;
-    background-color: transparent;
+    height: 100px;
+    padding: 50px 100px 0;
+    position: fixed;
+    width: 100vw;
 }
 
 nav {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -101,15 +100,43 @@ main {
     padding: 0.75rem 1rem;
 }
 
+.resumeButton:hover {
+    background-color: #02D9DA15;
+}
+
+.contentFixedLeftBar, .contentFixedRightBar {
+    background: linear-gradient(180deg, transparent 20%, var(--blue) 50%, transparent 80%);
+    content: "";
+    width: 8px;
+}
+
+.contentFixedLeftBar {
+    height: 260px;
+    margin-bottom: 50px;
+    left: 0;
+}
+
+.contentFixedRightBar {
+    height: 470px;
+    right: 0;
+}
+
+.socialFixedBar, .emailFixedBar, .contentFixedLeftBar, .contentFixedRightBar {
+    bottom: 0;
+    position: fixed;
+}
+
 .socialFixedBar {
-    left: 40px;
+    left: 30px;
     right: auto;
 }
 
-.content::after {
+.socialFixedBar::after, .emailFixedBar::after {
     content: "";
-    width: 10px;
-    background-image: url(./imgs/bar-left.png);
+    background-color: var(--blue);
+    display: block;
+    margin: 0 auto;
+    width: 1px;
 }
 
 .socialFixedBar ul li {
@@ -125,7 +152,7 @@ main {
     display: flex;
     flex-direction: column;
     left: auto;
-    right: 40px;
+    right: 30px;
     -webkit-box-align: center;
 }
 
@@ -136,7 +163,7 @@ main {
     line-height: 18px;
     letter-spacing: 0.1em;
     margin: 20px auto;
-    padding: 10px;
+    padding: 10px 0;
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
 }
@@ -145,27 +172,12 @@ main {
     height: 70px;
 }
 
-.socialFixedBar, .emailFixedBar {
-    bottom: 0;
-    position: fixed;
-}
-
-.socialFixedBar::after, .emailFixedBar::after {
-    content: "";
-    background-color: var(--blue);
-    display: block;
-    margin: 0 auto;
-    width: 1px;
-}
-
 .reception {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-height: 100vh;
-    height: 100vh;
-    padding: 0;
 }
 
 .reception h1 {
