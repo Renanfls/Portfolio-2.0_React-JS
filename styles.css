@@ -36,14 +36,22 @@ body {
 }
 
 header {
+    position: fixed;
     height: 100px;
+    width: 100vw;
+    box-sizing: border-box;
     padding: 70px 100px 0;
+    background-color: transparent;
 }
 
 nav {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+main {
+    padding: 0 100px;
 }
 
 .menu {
@@ -52,6 +60,10 @@ nav {
 
 .menu li {
     margin: 0 10px;
+}
+
+.menu li:first-child {
+    margin-left: 0;
 }
 
 .link {
@@ -144,4 +156,39 @@ nav {
     display: block;
     margin: 0 auto;
     width: 1px;
+}
+
+.reception {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    height: 100vh;
+    padding: 0;
+}
+
+.reception h1 {
+    color: var(--blue);
+    font-family: var(--fira);
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.reception h2 {
+    font-size: 50px;
+}
+
+.reception h3 {
+    color: var(--gray);
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.reception p {
+    color: var(--gray);
+    font-size: 21px;
+    width: 23rem;
+    font-weight: 400;
 }
