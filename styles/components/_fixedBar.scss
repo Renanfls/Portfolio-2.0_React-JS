@@ -1,0 +1,65 @@
+.contentFixedLeftBar, .contentFixedRightBar {
+    background: linear-gradient(180deg, transparent 20%, $blue 50%, transparent 80%);
+    content: "";
+    width: 8px;
+}
+
+.contentFixedLeftBar {
+    height: 260px;
+    margin-bottom: 50px;
+    left: 0;
+}
+
+.contentFixedRightBar {
+    height: 470px;
+    right: 0;
+}
+
+.socialFixedBar, .emailFixedBar, .contentFixedLeftBar, .contentFixedRightBar {
+    bottom: 0;
+    position: fixed;
+}
+
+.socialFixedBar::after, .emailFixedBar::after {
+    content: "";
+    background-color: $blue;
+    display: block;
+    margin: 0 auto;
+    width: 1px;
+}
+
+.socialFixedBar {
+    left: 30px;
+    right: auto;
+    ul {
+        li {
+            margin: 15px auto;
+        }
+    }
+    &::after {
+        height: 110px;
+    }
+}
+
+.emailFixedBar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: auto;
+    right: 30px;
+    -webkit-box-align: center;
+    a{
+        color: $gray;
+        font-family: $fira;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        margin: 20px auto;
+        padding: 10px 0;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+    }
+    &::after {
+        height: 70px;
+    }
+}

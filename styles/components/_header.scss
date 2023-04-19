@@ -1,0 +1,40 @@
+header {
+    box-sizing: border-box;
+    height: 100px;
+    padding: 50px 100px 0;
+    position: fixed;
+    width: 100vw;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding: 0 100px;
+}
+
+.menu {
+    display: flex;
+    li {
+        margin: 0 10px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.resumeButton {
+    color: $blue;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid $blue;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0.75rem 1rem;
+    &:hover {
+        background-color: #02D9DA15;
+    }
+}
