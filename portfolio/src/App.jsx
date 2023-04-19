@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import FixedBar from './components/FixedBar';
-import SectionReception from './components/SectionReception';
+import Main from './components/Main';
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <FixedBar />
-      <SectionReception />
+      <Main />
     </div>
   )
 }
