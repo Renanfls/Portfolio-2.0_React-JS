@@ -1,10 +1,12 @@
 #about {
+    margin-top: 100px;
     align-items: center;
     display: flex;
-    position: absolute;
+    justify-content: center;
     #pictureAbout {
         img {
-            border-radius: 0 200px;
+            width: 35vw;
+            border-radius: 0 270px;
             filter: grayscale(100%) opacity(25%);
             transition: 1s;
             &:hover {
@@ -13,7 +15,7 @@
         }
     }
     #content {
-        margin-left: 95px;
+        margin-left: 6rem;
         display: flex;
         flex-direction: column;
         .title {
@@ -35,6 +37,26 @@
             p {
                 color: $gray;
                 font-size: 20px;
+            }
+        }
+        #containerTools {
+            filter: grayscale(100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tools {
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                &:first-child {
+                    margin-top: 30px;
+                }
+                li {
+                    margin-left: 8px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
             }
         }
     }

@@ -3,12 +3,10 @@ import SectionAbout from "./SectionAbout";
 
 const Main = () => {
     return (
-        <div>
-            <main>
-                <SectionReception />
-                <SectionAbout />
-            </main>
-        </div>
+        <main>
+            <SectionReception />
+            <SectionAbout />
+        </main>
     )
 }
 

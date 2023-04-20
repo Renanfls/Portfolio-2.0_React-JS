@@ -1,27 +1,25 @@
 header {
     box-sizing: border-box;
     height: 100px;
-    padding: 50px 100px 0;
+    padding: 65px 100px;
     position: fixed;
     width: 100vw;
-}
-
-nav {
-    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: #0A192F20;
+    box-shadow: 0 10px 30px -10px #0A192F75;
     display: flex;
     justify-content: space-between;
-}
-
-main {
-    padding: 0 100px;
+    align-items: center;
 }
 
 .menu {
-    display: flex;
-    li {
-        margin: 0 10px;
-        &:first-child {
-            margin-left: 0;
+    ul {   
+        display: flex;
+        li {
+            margin: 0 10px;
+            &:first-child {
+                margin-left: 0;
+            }
         }
     }
 }

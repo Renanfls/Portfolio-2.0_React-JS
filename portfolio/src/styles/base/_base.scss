@@ -9,7 +9,7 @@
 
 body {
     background: $primary url(../../imgs/Vector.jpg) no-repeat;
-    background-size: cover;
+    background-size: 100vw;
 }
 
 a {
@@ -25,6 +25,10 @@ svg:hover {
     path {
         stroke: $blue;
     }
+}
+
+main {
+    padding: 0 100px;
 }
 
 .link {
