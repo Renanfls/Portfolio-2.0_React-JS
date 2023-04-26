@@ -1,4 +1,4 @@
-const SectionReception = () => {
+function SectionReception() {
     return (
         <section className="reception">
             <h1 className="line-1 anim-typewriter">Olá, meu nome é</h1>

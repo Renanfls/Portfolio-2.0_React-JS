@@ -1,4 +1,4 @@
-const SectionAbout = () => {
+function SectionAbout() {
     return (
         <section id="about">
             <div id="pictureAbout">

@@ -1,4 +1,4 @@
-const FixedBar = () => {
+function FixedBar() {
     return (
         <>
             <div orientation="left" className="socialFixedBar">
@@ -34,6 +34,7 @@ const FixedBar = () => {
             <div orientation="right" className="emailFixedBar">
                 <span class="contentFixedRightBar"></span>
                 <a href="mailto:contato.renanfabricio@gmail.com" class="link linkFixed">contato.renanfabricio@gmail.com</a>
+                    <img></img>
             </div>    
         </>
     )

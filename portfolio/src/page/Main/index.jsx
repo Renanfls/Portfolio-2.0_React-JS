@@ -1,7 +1,7 @@
-import SectionReception from "./SectionReception";
-import SectionAbout from "./SectionAbout";
+import SectionReception from "../SectionReception";
+import SectionAbout from "../SectionAbout";
 
-const Main = () => {
+function Main() {
     return (
         <main>
             <SectionReception />

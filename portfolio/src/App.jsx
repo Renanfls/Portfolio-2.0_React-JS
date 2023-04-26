@@ -1,6 +1,6 @@
-import Header from './components/Header';
-import FixedBar from './components/FixedBar';
-import Main from './components/Main';
+import Header from './page/Header';
+import FixedBar from './page/FixedBar';
+import Main from './page/Main';
 
 function App() {
 
