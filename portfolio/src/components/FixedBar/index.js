@@ -1,4 +1,4 @@
-function FixedBar() {
+export default function FixedBar() {
     return (
         <>
             <div orientation="left" className="socialFixedBar">
@@ -39,5 +39,3 @@ function FixedBar() {
         </>
     )
 }
-
-export default FixedBar
