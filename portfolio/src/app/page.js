@@ -1,7 +1,8 @@
 import Header from "@/components/Header"
 import FixedBar from "@/components/FixedBar"
-import SectionAbout from "@/components/SectionAbout"
 import SectionReception from "@/components/SectionReception"
+import SectionAbout from "@/components/SectionAbout"
+import SectionExperience from "@/components/SectionExperience"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <main>
       <SectionReception />
       <SectionAbout />
+      <SectionExperience />
     </main>
     </>
   )

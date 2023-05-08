@@ -1,8 +1,8 @@
 #about {
-    margin-top: 100px;
     align-items: center;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
     #pictureAbout {
         img {
             width: 35vw;
@@ -19,17 +19,8 @@
         display: flex;
         flex-direction: column;
         .title {
-            h2 {
-                font-size: 50px;
-            }
             &::after {
-                content: "";
-                background: linear-gradient(90deg, $primary 0%, $blue 100%);
-                height: 1px;
-                position: absolute;
-                transition: 0.3s ease-in-out;
-                width: 200px;
-                margin: 0 20px;
+                width: 10rem;
             }
         }
         .description {

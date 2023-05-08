@@ -1,0 +1,10 @@
+#experience {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    .title {
+        &::after {
+            width: 11rem;
+        }
+    }
+}
