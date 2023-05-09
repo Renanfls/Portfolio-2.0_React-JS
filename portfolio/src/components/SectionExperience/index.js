@@ -9,21 +9,17 @@ export default function SectionExperience() {
             <div className="title">
                 <h2>Experiência</h2>    
             </div>
-            <div>
-                {experiences.list.map(experience =>
-                    <>
-                        <div>
-                            <img src={experience.src} alt={experience.alt}/>
-                        </div>
-                        <div>
-                            <h3>{experience.company}</h3>
-                            <h4>{experience.position}</h4>
-                            <p>{experience.period}</p>
-                            <p>{experience.description}</p>
-                        </div>
-                    </>
-                )}
-            </div>
+            {experiences.list.map(experience =>
+                <div className="container">               
+                    <img className="pictureExperience" src={experience.src} alt={experience.alt}/>
+                    <div className="content">
+                        <h3 className="company">{experience.company}</h3>
+                        <h4 className="position">{experience.position}</h4>
+                        <p className="period">{experience.period}</p>
+                        <p className="description">{experience.description}</p>
+                    </div>
+                </div>
+            )}
         </section>
     )
 }

@@ -7,10 +7,8 @@ export default function SectionAbout() {
 
     return (
         <section id="about">
-            <div id="pictureAbout">
-                <img src="/images/picture.jpg" alt="foto"/>
-            </div>
-            <div id="content">
+            <img id="pictureAbout" src="/images/picture.jpg" alt="foto"/>
+            <div className="content">
                 <div className="title">
                     <h2>Sobre mim</h2>    
                 </div>
