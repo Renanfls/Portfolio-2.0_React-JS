@@ -1,5 +1,6 @@
 #experience {
-    margin-top: 5%;
+    margin-top: 10%;
+    min-height: 100vh;
     .title {
         display: flex;
         justify-content: center;
@@ -15,9 +16,12 @@
         margin-top: 70px;
         .pictureExperience {
             border-radius: 50px 0;
-            background-color: aqua;
-            width: 525px;
-            height: 300px;
+            filter: grayscale(100%) opacity(25%);
+            transition: 1s;
+            width: 35vw;
+            &:hover {
+                filter: grayscale(0%) opacity(100%);
+            }
         }
         .content {
             margin-left: 6rem;
@@ -44,7 +48,7 @@
                 line-height: 30px;
                 margin-top: 20px;
                 text-align: justify;
-                width: 475px;
+                width: 26.5rem;
             }
         }
     }
