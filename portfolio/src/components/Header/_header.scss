@@ -3,23 +3,9 @@ header {
     padding: 25px 100px;
     position: absolute;
     width: 100%;
-    // backdrop-filter: blur(10px);
-    // background-color: #0A192F05;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.menu {
-    ul {   
-        display: flex;
-        li {
-            margin: 0 10px;
-            &:first-child {
-                margin-left: 0;
-            }
-        }
-    }
 }
 
 .resumeButton {
@@ -30,6 +16,7 @@ header {
     border-radius: 5px;
     font-size: 16px;
     padding: 0.75rem 1rem;
+    margin-left: 10px;
     &:hover {
         background-color: #02D9DA15;
     }
