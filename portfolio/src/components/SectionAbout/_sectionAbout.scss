@@ -4,11 +4,14 @@
     justify-content: center;
     min-height: 100vh;
     #pictureAbout {
+        background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
+        box-shadow: 20px 20px 40px rgba(2,217,218,.10);
         border-radius: 0 200px;
         filter: grayscale(100%) opacity(25%);
         transition: 1s;
         max-width: 35vw;
         &:hover {
+            background: none;
             filter: grayscale(0%) opacity(100%);
         }
     }
@@ -19,11 +22,20 @@
         }
     }
     .description {
-        margin: 30px 0;
         p {
             color: $gray;
-            font-size: 20px;
+            font-size: 1.15rem;
             margin-bottom: 5px;
+        }
+        .formations {
+            background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
+            border: 2px solid rgba(2,217,218,.25);
+            border-radius: 25px;
+            padding: 10px 20px;
+            margin-right: 10px;
+        }
+        .period {
+            font-size: .8rem;
         }
     }
     #containerTools {

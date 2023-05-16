@@ -1,6 +1,6 @@
 const about = {
     name: "Renan Fabricio Lima da Silva",
-    ageStatusCity: "22 anos - Solteiro - Rio de Janeiro",
+    ageStatusCity: "22 anos - Solteiro - RJ",
     formations: [
         {
             course: "Gestão da Tecnologia da Informação - Estácio de Sá",
