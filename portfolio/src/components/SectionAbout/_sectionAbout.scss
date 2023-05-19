@@ -1,7 +1,4 @@
 #about {
-    align-items: center;
-    display: flex;
-    justify-content: center;
     min-height: 100vh;
     #pictureAbout {
         background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
@@ -11,13 +8,13 @@
         transition: 1s;
         max-width: 35vw;
         &:hover {
-            background: none;
             filter: grayscale(0%) opacity(100%);
         }
     }
 
     .title {
         &::after {
+            margin-top: 50px;
             width: 10rem;
         }
     }
@@ -25,24 +22,20 @@
         p {
             color: $gray;
             font-size: 1.15rem;
-            margin-bottom: 5px;
+            margin-left: 5px;
+            text-align: center;
         }
         .formations {
             background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
             border: 2px solid rgba(2,217,218,.25);
-            border-radius: 25px;
-            padding: 10px 20px;
-            margin-right: 10px;
         }
         .period {
             font-size: .8rem;
+            margin-bottom: 0;
         }
     }
-    #containerTools {
-        align-items: center;
-        display: flex;
+    .containerTools {
         filter: grayscale(100%);
-        flex-direction: column;
         .tools {
             display: flex;
             align-items: center;

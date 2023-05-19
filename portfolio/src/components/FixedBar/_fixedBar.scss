@@ -6,7 +6,6 @@
 
 .contentFixedLeftBar {
     height: 260px;
-    margin-bottom: 50px;
     left: 0;
 }
 
@@ -41,9 +40,6 @@
 }
 
 .emailFixedBar {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
     left: auto;
     right: 30px;
     -webkit-box-align: center;

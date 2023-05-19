@@ -1,16 +1,8 @@
 .reception {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     min-height: 100vh;
     h1 {
         color: $blue;
         font-family: $fira;
-        font-size: 21px;
-        margin-bottom: 10px;
-        font-weight: 400;
-        width: auto;
     }
     h2 {
         font-size: 50px;
@@ -18,13 +10,11 @@
     h3 {
         color: $gray;
         font-size: 42px;
-        margin-bottom: 10px;
     }
     p {
         color: $gray;
         font-size: 21px;
         width: 23rem;
-        font-weight: 400;
     }
 }
 
