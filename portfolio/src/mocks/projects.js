@@ -1,6 +1,27 @@
 const projects = {
     list: [
         {
+            background: '/images/bgPortfolioII.png',
+            period: 'Jun 2023',
+            title: 'Portfolio 2.0',
+            stacks: [
+                {
+                    src: '/assets/iconJs.svg',
+                },
+                {
+                    src: '/assets/iconReact.svg',
+                },
+                {
+                    src: '/assets/iconSass.svg',
+                },
+                {
+                    src: '/assets/iconBootstrap.svg',
+                },
+            ],
+            linkGithub: 'https://github.com/Renanfls/Portfolio-2.0_React-JS',
+            linkAplication: 'https://portfolio-2-react-js.vercel.app'
+        },
+        {
         background: '/images/bgRagnachain.png',
         period: 'Abr de 2022 - Jul de 2022',
         title: 'Ragnachain',

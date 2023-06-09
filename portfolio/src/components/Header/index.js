@@ -3,7 +3,7 @@ import { Button, Nav, Navbar } from "react-bootstrap"
 
 function Header() {
     return (
-        <header className="fixed-top px-5 py-0 w-100">
+        <header className="fixed-top px-5 w-100">
             <Navbar collapseOnSelect expand="lg" variant="dark">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
