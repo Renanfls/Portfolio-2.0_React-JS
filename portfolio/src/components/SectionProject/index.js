@@ -1,25 +1,27 @@
 'use client'
 import Carousel from 'react-bootstrap/Carousel';
-import { loadsExperience } from "@/services/loadsData";
+import { loadsProjects } from "@/services/loadsData"
+import Projects from './components/Project';
 
 function SectionProject() {
 
-    const experiences = loadsExperience();
+    const projects = loadsProjects();
 
     return (
-        <Carousel fade>
-            {experiences.list.map(experience =>
-                <Carousel.Item className="container">            
-                    <img className="pictureExperience" src={experience.src} alt={experience.alt}/>
-                    <div className="content">
-                        <h3 className="company">{experience.company}</h3>
-                        <h4 className="position">{experience.position}</h4>
-                        <p className="period">{experience.period}</p>
-                        <p className="description">{experience.description}</p>
-                    </div>
-                </Carousel.Item>
-            )}
-        </Carousel>
+        <section id='projects'>
+            <div className="title d-flex justify-content-center">
+                <h2 className="fw-bold">Projetos</h2>    
+            </div>
+                <div className='d-flex justify-content-center'>
+                    <Carousel fade className='my-5 container-fluid w-100'>
+                        {projects.list.map(project =>          
+                            <Carousel.Item className="container-fluid">  
+                                    <Projects className="d-flex justify-content-center" {...project} ></Projects>
+                            </Carousel.Item>
+                        )}
+                    </Carousel>
+                </div>
+        </section>
     );
 }
 

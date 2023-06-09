@@ -3,10 +3,9 @@
     #pictureAbout {
         background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
         box-shadow: 20px 20px 40px rgba(2,217,218,.10);
-        border-radius: 0 200px;
+        border-radius: 0 14vw;
         filter: grayscale(100%) opacity(25%);
         transition: 1s;
-        max-width: 35vw;
         &:hover {
             filter: grayscale(0%) opacity(100%);
         }

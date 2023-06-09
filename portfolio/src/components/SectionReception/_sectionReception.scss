@@ -5,16 +5,16 @@
         font-family: $fira;
     }
     h2 {
-        font-size: 50px;
+        font-size: 3rem;
     }
     h3 {
         color: $gray;
-        font-size: 42px;
+        font-size: 2rem;
     }
     p {
         color: $gray;
-        font-size: 21px;
-        width: 23rem;
+        font-size: 1.3rem;
+        max-width: 20ch;
     }
 }
 

@@ -1,7 +1,7 @@
 export default function FixedBar() {
     return (
         <>
-            <div orientation="left" className="socialFixedBar">
+            <div orientation="left" className="socialFixedBar d-none d-md-block">
                 <span class="contentFixedLeftBar mb-5"></span>
                 <ul>
                     <li>
@@ -31,7 +31,7 @@ export default function FixedBar() {
                     </li>
                 </ul>
             </div>
-            <div orientation="right" className="emailFixedBar align-items-center d-flex flex-column">
+            <div orientation="right" className="emailFixedBar align-items-center d-flex flex-column d-none d-md-block">
                 <span class="contentFixedRightBar"></span>
                 <a href="mailto:contato.renanfabricio@gmail.com" class="link linkFixed">contato.renanfabricio@gmail.com</a>
                     <img></img>

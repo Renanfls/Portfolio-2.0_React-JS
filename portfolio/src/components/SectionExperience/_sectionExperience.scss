@@ -1,5 +1,4 @@
-#experience {
-    min-height: 100vh;
+#experiences {
     .title {
         &::after {
             margin-top: 50px;
@@ -9,12 +8,8 @@
     .container {
         background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
         border: 2px solid rgba(2,217,218,.25);
-        filter: grayscale(100%) opacity(30%);
-        transition: 1s;
-        &:hover {
-            filter: grayscale(0%) opacity(100%);
-        }
         .pictureExperience {
+            filter: opacity(40%);
             border-radius: 50px 0;
             max-width: 200px;
         }

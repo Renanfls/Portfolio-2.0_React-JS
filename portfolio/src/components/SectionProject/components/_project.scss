@@ -1,0 +1,18 @@
+.container-project {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid rgba(2,217,218,.25);
+    height: 33rem;
+    border-top: 0;
+    .period-project {
+        font-family: $fira;
+    }
+    .links-project {
+        margin-top: 8rem;
+        .link {
+            &::after {
+                margin-bottom: -15px;
+            }
+        }
+    }
+}

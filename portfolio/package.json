@@ -18,5 +18,8 @@
     "react-dom": "^18.2.0",
     "reactstrap": "^9.1.9",
     "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "styled-components": "^5.3.10"
   }
 }

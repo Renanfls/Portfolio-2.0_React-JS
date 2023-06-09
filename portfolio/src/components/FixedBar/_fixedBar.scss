@@ -32,6 +32,11 @@
     ul {
         li {
             margin: 15px auto;
+            .link {
+                &::after {
+                    margin-bottom: -10px;
+                }
+            }
         }
     }
     &::after {
