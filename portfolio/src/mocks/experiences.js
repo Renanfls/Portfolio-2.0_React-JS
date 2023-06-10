@@ -4,7 +4,7 @@ const experiences = {
         company: 'Universidade Santa Úrsula - RJ',
         position: 'Estágiario de T.I',
         period: 'Jun 2022 - momento',
-        description: 'Suporte ao setor administrativo, manutenção de computadores, cabeamento de rede e transição para o sistema operacional Linux.',
+        description: 'Suporte ao setor administrativo, manutenção de computadores, cabeamento de rede, manutenção do site da universidade e transição para o sistema operacional Linux.',
         src: './images/usu.png',
         alt: 'Universidade Santa Úrsula'
         },
