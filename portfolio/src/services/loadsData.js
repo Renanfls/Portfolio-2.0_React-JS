@@ -1,20 +1,20 @@
-import about from '@/mocks/About/about';
-import tools from '@/mocks/About/tools';
-import experiences from '@/mocks/experiences';
-import projects from '@/mocks/projects';
+import about from "@/mocks/About/about";
+import tools from "@/mocks/About/tools";
+import experiences from "@/mocks/experiences";
+import projects from "@/mocks/projects";
 
 export const loadsAbout = () => {
-    return about;
-}
+  return about;
+};
 
 export const loadsTools = () => {
-    return tools;
-}
+  return tools;
+};
 
 export const loadsExperience = () => {
-    return experiences;
-}
+  return experiences;
+};
 
 export const loadsProjects = () => {
-    return projects;
-}
+  return projects;
+};

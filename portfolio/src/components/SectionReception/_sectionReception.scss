@@ -1,39 +1,38 @@
 .reception {
-    min-height: 100vh;
-    h1 {
-        color: $blue;
-        font-family: $fira;
-    }
-    h2 {
-        font-size: 3rem;
-    }
-    h3 {
-        color: $gray;
-        font-size: 2rem;
-    }
-    p {
-        color: $gray;
-        font-size: 1.3rem;
-        max-width: 32ch;
-    }
+  min-height: 100vh;
+  h1 {
+    color: $blue;
+    font-family: $fira;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    color: $gray;
+    font-size: 2rem;
+  }
+  p {
+    color: $gray;
+    font-size: 1.3rem;
+    max-width: 32ch;
+  }
 }
 
 .line-1 {
-    font-size: 3rem;
-    white-space: nowrap;
-    overflow: hidden;
+  font-size: 3rem;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .anim-typewriter {
-    animation: typewriter 4s steps(44) .5s 1 normal both,
+  animation: typewriter 4s steps(44) 0.5s 1 normal both;
 }
 
 @keyframes typewriter {
-    from {
-        width: 0;
-    }
-    to {
-        width: 28rem;
-    }
+  from {
+    width: 0;
+  }
+  to {
+    width: 28rem;
+  }
 }
-

@@ -1,36 +1,39 @@
 #experiences {
-    .title {
-        &::after {
-            margin-top: 50px;
-            width: 11rem;
-        }
+  .title {
+    &::after {
+      margin-top: 50px;
+      width: 11rem;
     }
-    .container {
-        background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
-        border: 2px solid rgba(2,217,218,.25);
-        .pictureExperience {
-            filter: opacity(40%);
-            border-radius: 50px 0;
-            max-width: 200px;
-        }
-        .company {
-            font-size: 26px;
-        }
-        .position {
-            color: $blue;
-            font-family: $fira;
-            font-size: 20px;
-        }
-        .period {
-            color: $gray;
-            font-size: 16px;
-        }
-        .description {
-            color: $gray;
-            text-align: justify;
-            max-width: 26.5rem;
-            width: 100%;
-        }
+  }
+  .container {
+    background: linear-gradient(
+      160deg,
+      transparent 50%,
+      rgba(2, 217, 218, 0.25) 100%
+    );
+    border: 2px solid rgba(2, 217, 218, 0.25);
+    .pictureExperience {
+      filter: opacity(40%);
+      border-radius: 50px 0;
+      max-width: 200px;
     }
-
+    .company {
+      font-size: 26px;
+    }
+    .position {
+      color: $blue;
+      font-family: $fira;
+      font-size: 20px;
+    }
+    .period {
+      color: $gray;
+      font-size: 16px;
+    }
+    .description {
+      color: $gray;
+      text-align: justify;
+      max-width: 26.5rem;
+      width: 100%;
+    }
+  }
 }

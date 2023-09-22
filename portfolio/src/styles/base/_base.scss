@@ -1,71 +1,75 @@
-@import './variables';
+@import "./variables";
 
 * {
-    color: $white;
-    font-family: $roboto;
-    margin: 0;
-    padding: 0;
+  color: $white;
+  font-family: $roboto;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: $primary url(../../../public/images/Vector.jpg) no-repeat;
-    background-size: 100vw;
+  background: $primary url(../../../public/images/Vector.jpg) no-repeat;
+  background-size: 100vw;
 }
 
-h1, h2, h3 {
-    font-family: inherit;
+h1,
+h2,
+h3 {
+  font-family: inherit;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-svg:hover { 
-    path {
-        stroke: $blue;
-    }
+svg:hover {
+  path {
+    stroke: $blue;
+  }
 }
 
 .link {
+  color: $white;
+  position: relative;
+  &:hover,
+  &:focus {
+    color: $blue;
+  }
+  &::after {
+    content: " ";
+    background: linear-gradient(90deg, $primary 0%, $blue 100%);
+    bottom: 0;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    width: 0%;
+  }
+  &:hover::after,
+  &:focus::after {
     color: $white;
-    position: relative;
-    &:hover, &:focus {
-        color: $blue;
-    }
-    &::after {
-        content: " ";
-        background: linear-gradient(90deg, $primary 0%, $blue 100%);
-        bottom: 0;
-        height: 1px;
-        left: 0;
-        position: absolute;
-        transition: 0.3s ease-in-out;
-        width: 0%;
-    }
-    &:hover::after, &:focus::after {
-        color: $white;
-        font-weight: bold;
-        width: 100%;
-    }
+    font-weight: bold;
+    width: 100%;
+  }
 }
 
 .title {
-    h2 {
-        font-size: 2.5rem;
-    }
-    &::after {
-        background: linear-gradient(90deg, $primary 0%, $blue 100%);
-        content: "";
-        height: 1px;
-        margin: 0 20px;
-        position: absolute;
-        transition: 0.3s ease-in-out;
-    }
+  h2 {
+    font-size: 2.5rem;
+  }
+  &::after {
+    background: linear-gradient(90deg, $primary 0%, $blue 100%);
+    content: "";
+    height: 1px;
+    margin: 0 20px;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+  }
 }

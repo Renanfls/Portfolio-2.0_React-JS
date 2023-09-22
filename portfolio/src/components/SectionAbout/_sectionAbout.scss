@@ -1,50 +1,58 @@
 #about {
-    min-height: 100vh;
-    #pictureAbout {
-        background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
-        box-shadow: 20px 20px 40px rgba(2,217,218,.10);
-        border-radius: 0 14vw;
-        filter: grayscale(100%) opacity(25%);
-        transition: 1s;
-        &:hover {
-            filter: grayscale(0%) opacity(100%);
-        }
+  min-height: 100vh;
+  #pictureAbout {
+    background: linear-gradient(
+      160deg,
+      transparent 50%,
+      rgba(2, 217, 218, 0.25) 100%
+    );
+    box-shadow: 20px 20px 40px rgba(2, 217, 218, 0.1);
+    border-radius: 0 14vw;
+    filter: grayscale(100%) opacity(25%);
+    transition: 1s;
+    &:hover {
+      filter: grayscale(0%) opacity(100%);
     }
+  }
 
-    .title {
-        &::after {
-            margin-top: 50px;
-            width: 10rem;
-        }
+  .title {
+    &::after {
+      margin-top: 50px;
+      width: 10rem;
     }
-    .description {
-        p {
-            color: $gray;
-            font-size: 1.15rem;
-            margin-left: 5px;
-            text-align: center;
-        }
-        .formations {
-            background: linear-gradient(160deg, transparent 50%, rgba(2,217,218,.25) 100%);
-            border: 2px solid rgba(2,217,218,.25);
-        }
-        .period {
-            font-size: .8rem;
-            margin-bottom: 0;
-        }
+  }
+  .description {
+    p {
+      color: $gray;
+      font-size: 1.15rem;
+      margin-left: 5px;
+      text-align: center;
     }
-    .containerTools {
-        filter: grayscale(100%);
-        .tools {
-            display: flex;
-            align-items: center;
-            margin-top: 10px;
-            li {
-                margin-left: 8px;
-                &:first-child {
-                    margin-left: 0;
-                }
-            }
-        }
+    .formations {
+      background: linear-gradient(
+        160deg,
+        transparent 50%,
+        rgba(2, 217, 218, 0.25) 100%
+      );
+      border: 2px solid rgba(2, 217, 218, 0.25);
     }
+    .period {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  }
+  .containerTools {
+    filter: grayscale(100%);
+    .tools {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      li {
+        margin-left: 8px;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
 }
