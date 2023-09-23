@@ -12,7 +12,7 @@ function SectionProject() {
         <h2 className="fw-bold">Projetos</h2>
       </div>
       <div className="d-flex justify-content-center">
-        <Carousel fade className="my-5 container-fluid w-100">
+        <Carousel fade className="carousel-container my-5">
           {projects.list.map((project) => (
             <Carousel.Item className="container-fluid">
               <Projects

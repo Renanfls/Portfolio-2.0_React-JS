@@ -12,6 +12,10 @@
       rgba(2, 217, 218, 0.25) 100%
     );
     border: 2px solid rgba(2, 217, 218, 0.25);
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 70%;
+    }
     .pictureExperience {
       filter: opacity(40%);
       border-radius: 50px 0;
@@ -19,11 +23,25 @@
     }
     .company {
       font-size: 26px;
+      max-width: 20ch;
+      @media screen and (min-width: 1024px) {
+        max-width: 100%;
+      }
     }
     .position {
       color: $blue;
       font-family: $fira;
       font-size: 20px;
+      max-width: 25ch;
+      @media screen and (min-width: 1024px) {
+        max-width: 100%;
+      }
+    }
+    .company, .position {
+      margin: 0 auto;
+      @media screen and (min-width: 1024px) {
+        margin: 0;
+      }
     }
     .period {
       color: $gray;
@@ -31,9 +49,11 @@
     }
     .description {
       color: $gray;
-      text-align: justify;
-      max-width: 26.5rem;
-      width: 100%;
+      max-width: 50ch;
+      @media screen and (min-width: 768px) {
+        max-width: 100%;
+      }
     }
   }
 }
+

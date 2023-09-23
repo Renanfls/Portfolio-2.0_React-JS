@@ -17,7 +17,7 @@ export default function SectionAbout() {
         >
           <img
             id="pictureAbout"
-            className="h-100 w-75"
+            className="w-75"
             src="/images/picture.jpg"
             alt="foto"
           />
@@ -37,7 +37,7 @@ export default function SectionAbout() {
                 <p className="fw-bold">{about.name}</p>
                 <p>{about.ageStatusCity}</p>
               </Row>
-              <Row className="d-flex justify-content-center m-4 gap-3">
+              <Row className="d-flex justify-content-center my-4 gap-3">
                 {about.formations.map((formation) => (
                   <Col
                     sm={12}

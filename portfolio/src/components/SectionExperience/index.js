@@ -11,12 +11,12 @@ export default function SectionExperience() {
         <h2 className="fw-bold">Experiência</h2>
       </div>
       {experiences.list.map((experience) => (
-        <div className="container d-grid p-md-5 mt-md-5 justify-content-center rounded-5 my-5 my-md-0">
-          <Row>
+        <div className="container d-flex p-md-5 mt-5 justify-content-center rounded-5">
+          <Row className="g-5 justify-content-center">
             <Col
               sm={12}
-              md={6}
-              xl={4}
+              md={12}
+              lg={4}
               className="d-grid justify-content-center pt-5 pt-md-0"
             >
               <img
@@ -25,12 +25,12 @@ export default function SectionExperience() {
                 alt={experience.alt}
               />
             </Col>
-            <Col sm={12} md={6} xl={8}>
-              <div className="p-5 p-md-0 text-center text-md-start">
+            <Col sm={12} md={12} lg={8} className="pe-2 ps-4">
+              <div className="p-5 p-md-0 text-center text-lg-start">
                 <h3 className="company fw-bold">{experience.company}</h3>
                 <h4 className="position lh-base">{experience.position}</h4>
                 <p className="period lh-sm mt-2">{experience.period}</p>
-                <p className="description fw-bold lh-base mt-3 text-center text-md-start">
+                <p className="description fw-bold lh-base mt-3">
                   {experience.description}
                 </p>
               </div>

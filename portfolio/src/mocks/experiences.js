@@ -11,7 +11,7 @@ const experiences = {
     },
     {
       company: "CWB Game Studio - Home Office",
-      position: "Estágio - Desenvolvedor front end",
+      position: "Estágio - Desenvolvedor Front-end",
       period: "Abr de 2022 - Jul de 2022",
       description:
         "Atuava no time de criação e manutenção de sites. Nesse período atuei no projeto Ragnachain.",
