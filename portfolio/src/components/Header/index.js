@@ -25,9 +25,9 @@ function Header() {
             className="resumeButton ms-0 d-flex justify-content-center"
             title="Acessar Currículo"
             target="_blank"
-            href="https://drive.google.com/file/d/1UWsfLj99AGzo8Pgg7D1AJv2-V3lp7mXd/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TT736-kDEFT-siVZlJukreqocqALOsRo/view?usp=sharing"
           >
-            Resumo
+            Currículo
           </Button>
         </Navbar.Collapse>
       </Navbar>

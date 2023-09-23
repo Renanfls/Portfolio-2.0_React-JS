@@ -1,7 +1,7 @@
 import "./index.scss";
 
 export const metadata = {
-  title: "My Page",
+  title: "Portfolio",
   description: "Portfolio",
 };
 
