@@ -28,7 +28,7 @@ function Projects({
       </h5>
       <div className="tools-project">
         {stacks.map((stack) => (
-          <img className="pe-2" src={stack.src} />
+          <img key={stack.name} className="pe-2" src={stack.src} />
         ))}
       </div>
       <div className="links-project">

@@ -14,7 +14,7 @@ function SectionProject() {
       <div className="d-flex justify-content-center">
         <Carousel fade className="carousel-container my-5">
           {projects.list.map((project) => (
-            <Carousel.Item className="container-fluid">
+            <Carousel.Item key={project.title} className="container-fluid">
               <Projects
                 className="d-flex justify-content-center"
                 {...project}

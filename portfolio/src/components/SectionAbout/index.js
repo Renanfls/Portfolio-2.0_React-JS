@@ -40,6 +40,7 @@ export default function SectionAbout() {
               <Row className="d-flex justify-content-center my-4 gap-3">
                 {about.formations.map((formation) => (
                   <Col
+                    key={formation.course}
                     sm={12}
                     md={5}
                     className="formations mb-3 mb-md-0 p-3 rounded-5"
@@ -53,22 +54,22 @@ export default function SectionAbout() {
             <div className="containerTools align-items-center d-flex flex-column">
               <ul className="tools">
                 {tools.line1.map((tool) => (
-                  <li>
-                    <img src={tool.src} alt={tool.alt} className="w-100" />
+                  <li key={tool.alt}>
+                    <img src={tool.src} alt={tool.alt} title={tool.alt} className="w-100" />
                   </li>
                 ))}
               </ul>
               <ul className="tools">
                 {tools.line2.map((tool) => (
-                  <li>
-                    <img src={tool.src} alt={tool.alt} className="w-75" />
+                  <li key={tool.alt}>
+                    <img src={tool.src} alt={tool.alt} title={tool.alt} className="w-75" />
                   </li>
                 ))}
               </ul>
               <ul className="tools">
                 {tools.line3.map((tool) => (
-                  <li>
-                    <img src={tool.src} alt={tool.alt} className="w-75" />
+                  <li key={tool.alt}>
+                    <img src={tool.src} alt={tool.alt} title={tool.alt} className="w-75" />
                   </li>
                 ))}
               </ul>

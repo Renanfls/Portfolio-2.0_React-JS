@@ -6,15 +6,19 @@ const projects = {
       title: "Portfolio 2.0",
       stacks: [
         {
+          name: "Js",
           src: "/assets/iconJs.svg",
         },
         {
+          name: "React",
           src: "/assets/iconReact.svg",
         },
         {
+          name: "Sass",
           src: "/assets/iconSass.svg",
         },
         {
+          name: "Bootstrap",
           src: "/assets/iconBootstrap.svg",
         },
       ],
@@ -27,12 +31,15 @@ const projects = {
       title: "Ragnachain",
       stacks: [
         {
+          name: "Html",
           src: "/assets/iconHtml.svg",
         },
         {
+          name: "Css",
           src: "/assets/iconCss.svg",
         },
         {
+          name: "Js",
           src: "/assets/iconJs.svg",
         },
       ],
@@ -45,15 +52,19 @@ const projects = {
       title: "Organograma",
       stacks: [
         {
+          name: "Html",
           src: "/assets/iconHtml.svg",
         },
         {
+          name: "Sass",
           src: "/assets/iconSass.svg",
         },
         {
+          name: "Js",
           src: "/assets/iconJs.svg",
         },
         {
+          name: "React",
           src: "/assets/iconReact.svg",
         },
       ],
@@ -66,12 +77,15 @@ const projects = {
       title: "Reconhecimento De Voz",
       stacks: [
         {
+          name: "Html",
           src: "/assets/iconHtml.svg",
         },
         {
+          name: "Sass",
           src: "/assets/iconSass.svg",
         },
         {
+          name: "Js",
           src: "/assets/iconJs.svg",
         },
       ],
@@ -84,9 +98,11 @@ const projects = {
       title: "Clipboard",
       stacks: [
         {
+          name: "Html",
           src: "/assets/iconHtml.svg",
         },
         {
+          name: "Css",
           src: "/assets/iconCss.svg",
         },
       ],
@@ -99,9 +115,11 @@ const projects = {
       title: "Selfcare",
       stacks: [
         {
+          name: "Html",
           src: "/assets/iconHtml.svg",
         },
         {
+          name: "Css",
           src: "/assets/iconCss.svg",
         },
       ],
