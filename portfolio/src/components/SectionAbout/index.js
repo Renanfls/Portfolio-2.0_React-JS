@@ -44,7 +44,7 @@ export default function SectionAbout() {
                       <img
                         src={tool.src}
                         alt={tool.alt}
-                        title={tool.alt}
+                        title={tool.title}
                         className="w-100"
                       />
                     </li>
@@ -56,7 +56,7 @@ export default function SectionAbout() {
                       <img
                         src={tool.src}
                         alt={tool.alt}
-                        title={tool.alt}
+                        title={tool.title}
                         className="w-75"
                       />
                     </li>
@@ -68,7 +68,7 @@ export default function SectionAbout() {
                       <img
                         src={tool.src}
                         alt={tool.alt}
-                        title={tool.alt}
+                        title={tool.title}
                         className="w-75"
                       />
                     </li>
