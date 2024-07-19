@@ -38,7 +38,6 @@ export default function SectionExperience() {
                 </p>
               </div>
               <div className="p-5 p-md-0 text-center text-lg-start">
-                <h3 className="company fw-bold">{experience.company}</h3>
                 <h4 className="position lh-base">{experience.position1}</h4>
                 <p className="period lh-sm mt-2">{experience.period1}</p>
                 <p className="description fw-bold lh-base mt-3">

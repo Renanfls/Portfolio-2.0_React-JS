@@ -15,18 +15,18 @@ const experiences = {
     },
     {
       company: "CWB Game Studio - Home Office",
-      position: "Estágio - Desenvolvedor Front-end",
-      period: "Abr de 2022 - Jul de 2022",
-      description:
+      position1: "Estágio - Desenvolvedor Front-end",
+      period1: "Abr de 2022 - Jul de 2022",
+      description1:
         " Criação e manutenção de sites(Landing Page Institucional e E-Commerce) - HTML5, CSS3, JS, Bootstrap 5, Magento, WordPress, Firezilla - Deploy das aplicações",
       src: "./images/cwb.jpg",
       alt: "Logo CWB Game Studio",
     },
     {
       company: "NDX Agência - RJ",
-      position: "Designer Assistente",
-      period: "Out de 2021 - Mar de 2022",
-      description:
+      position1: "Designer Assistente",
+      period1: "Out de 2021 - Mar de 2022",
+      description1:
         "Criação de peças para Instagram(Feed, Story) - Edição de vídeo - Criação de logo - Produção e fechamento de arquivo - Material gráfico(Envelope e Folder) - Identidade Visual",
       src: "./images/ndx.jpg",
       alt: "Logo NDX Agência",
