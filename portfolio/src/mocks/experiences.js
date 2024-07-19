@@ -2,10 +2,14 @@ const experiences = {
   list: [
     {
       company: "Universidade Santa Úrsula - RJ",
-      position: "Estágiario de T.I",
-      period: "Jun 2022 - momento",
-      description:
-        "Suporte ao setor administrativo, manutenção de computadores, cabeamento de rede, transição para o sistema operacional Linux e Manutenção do site utilizando Html, Css e Bootstrap 5.",
+      position1: "Estágiario de T.I",
+      period1: "Jun 2022 - Abr 2024",
+      description1:
+        "Help Desk - Manutenção de Computadores - Cabeamento de rede, Transição da Unidade para o Sistema Operacional Linux - Manutenção de site utilizando HTML5, CSS3, JS e Bootstrap 5 - Telefonia(PABX) - Cabeamento de Câmera",
+      position2: "Design Gráfico",
+      period2: "Abr 2024 - o momento",
+      description2:
+        "Criação de peças para Instagram e Site(Feed, Story) - Criação de logo - Campanha de Vestibular - Produção e fechamento de arquivo - Outdoor e Fachada das Unidades - Material Gráfico(Adesivo, Banner c/ Suporte, Banner Lona, Etiqueta, Envelope, A4, A5) - Identidade Visual",
       src: "./images/usu.png",
       alt: "Universidade Santa Úrsula",
     },
@@ -14,7 +18,7 @@ const experiences = {
       position: "Estágio - Desenvolvedor Front-end",
       period: "Abr de 2022 - Jul de 2022",
       description:
-        "Atuava no time de criação e manutenção de sites. Nesse período atuei no projeto Ragnachain.",
+        " Criação e manutenção de sites(Landing Page Institucional e E-Commerce) - HTML5, CSS3, JS, Bootstrap 5, Magento, WordPress, Firezilla - Deploy das aplicações",
       src: "./images/cwb.jpg",
       alt: "Logo CWB Game Studio",
     },
@@ -23,7 +27,7 @@ const experiences = {
       position: "Designer Assistente",
       period: "Out de 2021 - Mar de 2022",
       description:
-        "Atuava no time de criação voltado para Gestão de Redes Sociais das empresas parceiras. Atividades exercidas: criação de artes voltadas ao Instagram, produção de identidade visual e material gráfico.",
+        "Criação de peças para Instagram(Feed, Story) - Edição de vídeo - Criação de logo - Produção e fechamento de arquivo - Material gráfico(Envelope e Folder) - Identidade Visual",
       src: "./images/ndx.jpg",
       alt: "Logo NDX Agência",
     },

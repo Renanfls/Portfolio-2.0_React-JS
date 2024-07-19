@@ -11,7 +11,10 @@ export default function SectionExperience() {
         <h2 className="fw-bold">Experiência</h2>
       </div>
       {experiences.list.map((experience) => (
-        <div key={experience.company} className="container p-md-5 mt-5 rounded-5">
+        <div
+          key={experience.company}
+          className="container p-md-5 mt-5 rounded-5"
+        >
           <Row className="g-5 align-items-center">
             <Col
               sm={12}
@@ -28,10 +31,18 @@ export default function SectionExperience() {
             <Col sm={12} md={12} lg={8} className="px-4">
               <div className="p-5 p-md-0 text-center text-lg-start">
                 <h3 className="company fw-bold">{experience.company}</h3>
-                <h4 className="position lh-base">{experience.position}</h4>
-                <p className="period lh-sm mt-2">{experience.period}</p>
+                <h4 className="position lh-base">{experience.position2}</h4>
+                <p className="period lh-sm mt-2">{experience.period2}</p>
                 <p className="description fw-bold lh-base mt-3">
-                  {experience.description}
+                  {experience.description2}
+                </p>
+              </div>
+              <div className="p-5 p-md-0 text-center text-lg-start">
+                <h3 className="company fw-bold">{experience.company}</h3>
+                <h4 className="position lh-base">{experience.position1}</h4>
+                <p className="period lh-sm mt-2">{experience.period1}</p>
+                <p className="description fw-bold lh-base mt-3">
+                  {experience.description1}
                 </p>
               </div>
             </Col>

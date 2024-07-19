@@ -4,7 +4,7 @@ const about = {
   formations: [
     {
       course: "Ciência da Computação - Estácio de Sá",
-      period: "(Jul 2023 - o momento)",
+      period: "(Jul 2023 - o momento) 3º Período",
     },
     {
       course: "Gestão da Tecnologia da Informação - Estácio de Sá",
