@@ -25,7 +25,7 @@ function Header() {
             className="resumeButton ms-0 d-flex justify-content-center"
             title="Acessar Currículo"
             target="_blank"
-            href="https://drive.google.com/file/d/1TT736-kDEFT-siVZlJukreqocqALOsRo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1OeEyOH-tOqOH0Kig1K9HQ2T5OzvoIkqU/view?usp=sharing"
           >
             Currículo
           </Button>
