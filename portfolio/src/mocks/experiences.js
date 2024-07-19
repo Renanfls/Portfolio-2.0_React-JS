@@ -6,7 +6,7 @@ const experiences = {
       period1: "Jun 2022 - Abr 2024",
       description1:
         "Help Desk - Manutenção de Computadores - Cabeamento de rede, Transição da Unidade para o Sistema Operacional Linux - Manutenção de site utilizando HTML5, CSS3, JS e Bootstrap 5 - Telefonia(PABX) - Cabeamento de Câmera",
-      position2: "Design Gráfico",
+      position2: "Designer Gráfico",
       period2: "Abr 2024 - o momento",
       description2:
         "Criação de peças para Instagram e Site(Feed, Story) - Criação de logo - Campanha de Vestibular - Produção e fechamento de arquivo - Outdoor e Fachada das Unidades - Material Gráfico(Adesivo, Banner c/ Suporte, Banner Lona, Etiqueta, Envelope, A4, A5) - Identidade Visual",
