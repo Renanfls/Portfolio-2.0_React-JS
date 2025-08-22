@@ -43,6 +43,16 @@ const tools = {
   ],
   line2: [
     {
+      src: "/assets/powerbi.svg",
+      alt: "icone power bi",
+      title: "Power BI",
+    },
+    {
+      src: "/assets/graphql.svg",
+      alt: "icone graphql",
+      title: "GraphQL",
+    },
+    {
       src: "/assets/mysql.svg",
       alt: "icone mysql",
       title: "MySQL",
@@ -63,14 +73,9 @@ const tools = {
       title: "Next",
     },
     {
-      src: "/assets/vite.svg",
-      alt: "icone vite",
-      title: "Vite",
-    },
-    {
-      src: "/assets/styledComponents.svg",
-      alt: "icone styled components",
-      title: "Styled Components",
+      src: "/assets/tailwind.svg",
+      alt: "icone tailwind",
+      title: "Tailwind",
     },
   ],
   line3: [

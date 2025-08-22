@@ -1,13 +1,13 @@
 const about = {
   name: "Renan Fabricio Lima da Silva",
-  ageStatusCity: "22 anos - Solteiro - RJ",
+  ageStatusCity: "24 anos - Solteiro - RJ",
   formations: [
     {
-      course: "Ciência da Computação - Estácio de Sá",
-      period: "(Jul 2023 - o momento) 3º Período",
+      course: "Bacharel em Ciência da Computação - Estácio de Sá",
+      period: "(Jul 2023 - o momento) 5º Período",
     },
     {
-      course: "Gestão da Tecnologia da Informação - Estácio de Sá",
+      course: "Tecnólogo em Gestão da Tecnologia da Informação - Estácio de Sá",
       period: "(Fev 2020 - Jul 2022)",
     },
     {
