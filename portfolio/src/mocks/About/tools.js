@@ -43,12 +43,12 @@ const tools = {
   ],
   line2: [
     {
-      src: "/assets/powerbi.png",
+      src: "/assets/powerBi.svg",
       alt: "icone power bi",
       title: "Power BI",
     },
     {
-      src: "/assets/graphql.png",
+      src: "/assets/graphQl.svg",
       alt: "icone graphql",
       title: "GraphQL",
     },
