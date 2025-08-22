@@ -5,8 +5,10 @@ function SectionReception() {
         Olá, meu nome é
       </h1>
       <h2 className="fw-bold">Renan Fabricio</h2>
-      <h3 className="fw-bold mb-2">Desenvolvedor e Designer</h3>
-      <p>Criação de layouts e desenvolvimento de aplicações web</p>
+      <h3 className="fw-bold mb-2">Analista de Dados e Dev. Front-end</h3>
+      <p>
+        Power BI, aplicações web e mobile com Angular e GraphQL.
+      </p>
     </section>
   );
 }
